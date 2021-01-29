@@ -3,16 +3,18 @@
 Repo structure:
 
 ```
-
+generate_figures.R    ::      Script generating the final figures for the paper
+data/                 ::      Directory containing the data and upstream preprocessing scripts
+analysis/             ::      Directory containing the analyses performed as part of this study
+misc/                 ::      Misc data, helper functions, and scripts
 ```
-
 
 ## TLDR
 
-TLDR: This repo is for a research paper that develops 3 approaches for addressing one question: "How do cancers relate to normal tissues?" In another sense, this question is asking:
+TLDR: This repo is for a research paper that develops 2-3 approaches for addressing one question: "How do cancers relate to normal tissues?" In another sense, this question is asking:
 
 1. What are the normal cell states that a tissue can inhabit?
-2. What are the normal states which cancer most resembles?
+2. What are the normal states which each cancer most resembles?
 3. How do interventions, such as chemotherapy, change this relationship?
 4. What new drug targets does this reveal? Does this tell us anything about the cell of origin?
 
