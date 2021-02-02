@@ -1,0 +1,8 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+data/CellO_data/bulk_RNA_seq_training_set/bulk_log_tpm.h5
+data/CellO_data/non_droplet_single_cell/single_cell_log_tpm.h5
+data/CellO_data/trained_model_coefficients/cascaded_logistic_regression_coefficients.tsv.gz
+data/CellO_data/trained_model_coefficients/one_vs_rest_coefficients.tsv.gz
