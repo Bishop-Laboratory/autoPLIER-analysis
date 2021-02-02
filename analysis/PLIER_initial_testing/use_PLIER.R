@@ -28,7 +28,6 @@ mat4 <- mat3[-rmrow,]
 rm(mat, mat2, mat3)
 gc()
 plierResult <- PLIER(mat4, canonicalPathways, seed = 42)
-save(plierResult, file = "analysis/PLIER_initial_testing/plierResult.R")
-
+save(plierResult, file = "analysis/PLIER_initial_testing/plierResult.rda")
 
 
