@@ -18,11 +18,11 @@ TLDR: This repo is for a research paper that develops 2-3 approaches for address
 3. How do interventions, such as chemotherapy, change this relationship?
 4. What new drug targets does this reveal? Does this tell us anything about the cell of origin?
 
-Here are the three approaches:
+Here are the three **aims**:
 
-1. PHATE atlas: We use manifold learning approaches to embed normal tissues and cancers in a low-dimensional space and then we can see how similar or different the cancer is from various normal tissues (e.g., PHATE, H-PHATE, clustering, etc). **Pro**: Very easy to visualize and interpret. **Con**: It's not that accurate as dimensionality reduction causes lots of information loss.
-2. CellO Plier: We use NMF to find pathway-based latent dimensions that we can use to map cancer samples to the cell ontology and derive normal tissue scores for each cancer sample. E.g., Cancer sample X is 50% T-Cell and 50% Stem Cell. 
-3. Cancer scores for normal tissues: This Dr. Zheng's idea (this is a tertiary approach we might not have time to get to) -- rather than finding "normal tissue scores in cancer" he wants to find "cancer scores in normal tissues" in order to find the normal tissues which most resemble a particular cancer. This approach is also optimized to deal with an issue relating to the number of genes expressed influencing the mapping of cancer to normal. 
+1. **Manifold Alignment (Aim 1)**: Generation of normal reference manifold and then alignment of "query" cancer samples to this reference. This allows us to visually see where in the reference they align and then compare them to eachother using techniques like clustering. This approach isn't as accurate, but it's an absolute requirement for our tool since people need to visually see the alignment to understand it. **Pro**: Very easy to visualize and interpret. **Con**: It's not that accurate as dimensionality reduction causes lots of information loss.
+2. **Ontology-based normal-tissue scores (Aim 2)**: We use NMF to find pathway-based latent dimensions that we can use to map cancer samples to the cell ontology and derive normal tissue scores for each cancer sample. E.g., Cancer sample X is 50% T-Cell and 50% Stem Cell -- gives a more quantitative approach to mapping query cancers to normal tissue references.
+3. **Cancer-reference projection (Aim 3)**: Creation of a cancer reference which we can generate scores for in normal tissues. This is the inverse of 2 where the normal is now the query and the cancer is the reference. There's certain reasons why this might actually be a more accurate strategy, but definitely still underdeveloped.
 
 ## Background
 
