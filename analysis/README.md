@@ -10,7 +10,7 @@ The following list will correspond to the analyses which have been planned for t
 
 #### Testing PLIER on the CellO training set
 
-Data source: `data/CellO_data`
+Data source: normalized RNA-Seq - `data/CellO_data/bulk_RNA_seq_training_set/bulk_log_tpm.h5`
 
 Folder: `PLIER_initial_testing_Henry/`
 
@@ -21,7 +21,7 @@ Questions:
 
 #### EDA of CellO training dataset 
 
-Data source: `data/CellO_data`
+Data source: normalized RNA-Seq - `data/CellO_data/bulk_RNA_seq_training_set/bulk_log_tpm.h5`
 
 Justin's folder - `analysis/CellO_training_data_eda_Justin`
 
