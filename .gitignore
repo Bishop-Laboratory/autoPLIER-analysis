@@ -2,6 +2,7 @@
 .Rhistory 
 .RData 
 .Ruserdata
+*.ipynb_checkpoints*
 data/CellO_data/trained_model_coefficients/cascaded_logistic_regression_coefficients.tsv.gz
 data/CellO_data/trained_model_coefficients/one_vs_rest_coefficients.tsv.gz
 data/CellO_data/technical_variable_annotation/experiment_tags.json
@@ -21,3 +22,10 @@ analysis/PLIER_initial_testing_Henry/plierResult/Z.csv
 analysis/PLIER_initial_testing_Henry/plierResult/B.csv
 analysis/PLIER_initial_testing_Henry/plierResult/residual.csv
 analysis/PLIER_initial_testing_Henry/plierResult.rda
+analysis/EDA_Julian/SRP223078_results/SRP223078_quantified.tsv
+analysis/EDA_Julian/comparison Cello_split normal split.ipynb
+analysis/CellO_training_data_eda_Serhiy/Ewing Regression.ipynb
+analysis/CellO_training_data_eda_Serhiy/B-Regression-On_test.ipynb
+SRP223078_results.zip
+data/Ewing_cell_lines/Ewing_NT_cell_lines.tsv.gz
+data/CellO_data/bulk_RNA_seq_training_set/bulk_log_tpm.cleaned.rda
