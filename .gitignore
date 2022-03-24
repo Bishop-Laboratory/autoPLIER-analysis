@@ -29,3 +29,9 @@ analysis/CellO_training_data_eda_Serhiy/B-Regression-On_test.ipynb
 SRP223078_results.zip
 data/Ewing_cell_lines/Ewing_NT_cell_lines.tsv.gz
 data/CellO_data/bulk_RNA_seq_training_set/bulk_log_tpm.cleaned.rda
+data/corr_analyzer*/**/data/
+data/corr_analyzer*/**/*.rda
+*.sqlite
+*.Rdata
+data/corr_analyzer*/**/TPM*
+
